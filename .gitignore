@@ -1,0 +1,43 @@
+# ══════════ SECRETS — NEVER COMMIT ══════════
+.env
+.env.local
+.env.*.local
+*.key
+# ══════════ PYTHON ══════════
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# ══════════ VIRTUAL ENVIRONMENTS ══════════
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+# ══════════ JUPYTER / ANACONDA ══════════
+.ipynb_checkpoints/
+.conda
+# ══════════ FLASK ══════════
+instance/
+.webassets-cache
+# ══════════ OS JUNK ══════════
+.DS_Store
+Thumbs.db
+desktop.ini
+# ══════════ EDITOR / IDE ══════════
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+# ══════════ LOGS ══════════
+*.log
+logs/
