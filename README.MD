@@ -51,3 +51,5 @@ curl http://localhost:5000/generateimages/a%20lighthouse%20at%20dawn
 - Image payload is handled as either `b64_json` or `url`, depending on what
   the model returns.
 ```
+## Note
+- my env is imagegeneration
